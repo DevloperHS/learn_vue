@@ -1,3 +1,5 @@
+# sol for https://vuejs.org/tutorial/#step-4
+
 <!--
 
 Dataflow: Data -> Methods -> Trigger (v-on/ @) -> Update Data -> Update DOM
@@ -12,7 +14,7 @@ In the template, we display the current value of `count` and have three buttons 
 export default {
   data() {
     return {
-      count: 0
+      count: 0 //data property
     }
   },
   
